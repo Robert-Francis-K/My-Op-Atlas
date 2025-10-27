@@ -140,7 +140,7 @@ async function generateApplicationData() {
     }),
   )
 
-  // write to file
+  // write to file with new Feature
   await writeFile("team.json", JSON.stringify(applications, null, 2))
 }
 
